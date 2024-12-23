@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLUELAND</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav w-full  z-[100]">
+        <div class="nav-top w-full bg-gradient-to-r from-[#ABEEFF] to-[#A1A0DD] flex items-center justify-center py-1">
+            <h3 class="font-[#sailec]">Now shipping to CAN, UK, AUS, & NZ!</h3> 
+        </div>
+        <div class="nav-bottom w-full fixed z-[100] flex items-center justify-between px-5 py-2">
+            <div class="nav-left">
+                <h1 class="text-[1.7vw] font-[#self] font-bold">BLUELAND</h1>
+            </div>
+            <div class="nav-right flex items-center gap-14 ">
+                <div class="flex gap-4">
+                    <i class="ri-search-line text-[1.5vw]"></i>
+                    <i class="ri-shopping-cart-line text-[1.5vw]"></i>
+                </div>
+              
+                <div>
+                    <i class="ri-menu-line text-[1.5vw]"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main w-full relative overflow-hidden">
+    <div class="home w-full bg-[#D8F1F7] h-screen flex">
+        <div class="left w-[42vw]  flex flex-col items-start justify-center gap-5 px-16">
+            <h1 class="text-[#0873A0] text-[3.8vw] leading-tight font-[#sailec] font-semibold">Going eco has 
+                never been easier</h1>
+                <p class="font-[#sailec] text-[1.1vw] text-zinc-600">Revolutionary, refillable home essential <br>
+                    s eliminating single-use plastic</p>
+                    <button class="bg-[#89C9F8] text-white py-2 px-5 text-[1vw] rounded-[20vw] mt-5 font-semibold font-[#sailec]">SHOP NOW</button>
+        </div>
+        <div class="right w-[65vw]  flex flex-col items-start justify-end">
+            <img class="h-[40vw] w-[60vw]" src="blueland_main.png" alt="">
+        </div>
+    </div>
+    <div class="page2 w-full bg-[#D8F1F7] h-screen flex flex-col gap-16 px-16">
+            <h1 class="text-[2vw] font-[#sailec] pt-20">1,000,000+ Homes Have <br>
+                Made the Switch.</h1>
+                <div class="flex flex-wra items-center justify-center gap-4">
+                    <div class="cards w-[23vw] h-[17vw] rounded-[1vw] bg-gradient-to-t from-[#ABDAFC] to-[#B9B8F4] py-2 px-4 flex flex-col gap-2 items-start">
+                        <img class="h-[7vw]" src="img1-page2.png" alt="">
+                        <h2 class="text-[1.8vw] text-[#054D6C] font-semibold">Powerfully Effective</h2>
+                        <h3 class="text-[1.2vw]">75,000+ 5-star reviews</h3>
+                    </div>
+                    <div class="cards w-[23vw] h-[17vw] rounded-[1vw] bg-gradient-to-t from-[#ABDAFC] to-[#B9B8F4] py-2 px-4 flex flex-col gap-2 items-start">
+                        <img class="h-[7vw]" src="img2-page2.png" alt="">
+                        <h2 class="text-[1.8vw] text-[#054D6C] font-semibold">Clean Ingredients</h2>
+                        <h3 class="text-[1.2vw]">Safe for use around kids <br>
+                            and pets</h3>
+                    </div>
+                    <div class="cards w-[23vw] h-[17vw] rounded-[1vw] bg-gradient-to-t from-[#ABDAFC] to-[#B9B8F4] py-2 px-4 flex flex-col gap-2 items-start">
+                        <img class="h-[7vw]" src="img3-page2.png" alt="">
+                        <h2 class="text-[1.8vw] text-[#054D6C] font-semibold">Plastic-Free</h2>
+                        <h3 class="text-[1.2vw]">Compostable paper-based packaging</h3>
+                    </div>
+                    <div class="cards w-[23vw] h-[17vw] rounded-[1vw] bg-gradient-to-t from-[#ABDAFC] to-[#B9B8F4] py-2 px-4 flex flex-col gap-2 items-start">
+                        <img class="h-[7vw]" src="img4-page2.png" alt="">
+                        <h2 class="text-[1.8vw] text-[#054D6C] font-semibold">Money-Saving</h2>
+                        <h3 class="text-[1.2vw]">Never pay for water or plastic packaging</h3>
+                    </div>
+                </div>
+     
+    </div>
+    <div class="page3 w-full h-screen bg-[#D8F1F7] pt-17 px-16 flex flex-col gap-14">
+        <div class="flex flex-col items-start gap-4">
+            <h1 class="text-[#054D6C] text-[2.4vw] font-[#sailec] font-semibold">Shop By Category</h1>
+            <p class="text-[1.2vw] leading-tight text-zinc-600 font-regular">Explore all of our reusable and sustainable <br>
+                household cleaning products.</p>
+        </div>
+        <div class="swiper mySwiper w-full h-[60vh] cursor-grab">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide w-[20vw] h-[55vh] bg-[#E6F3F7] rounded-md flex flex-col items-center justify-center shadow-md shadow-zinc-300">
+                    <img class="h-[15vw] object-cover" src="startkits-blue.png" alt="">
+                    <div class="flex flex-col px-4 items-center gap-3 inline-block  mb-10">
+                        <h2 class="text-[2vw] font-[#sailec] font-medium text-[#054D6C]">Starter Kits </h2>
+                        <p class="text-[.9vw] text-[#7BA2BE] leading-tigh text-start">Get started with our bestselling kits</p>
+                            <button class="bg-[#89C9F8] text-white text-[1.2vw] font-semibold py-1 px-6 rounded-[1vw]">SHOP</button>
+                    </div>
+              </div>
+              <div class="swiper-slide w-[20vw] h-[55vh] bg-[#E6F3F7] rounded-md flex flex-col items-center justify-center shadow-md shadow-zinc-300">
+                <img class="h-[15vw] object-cover" src="laundry-blue.png" alt="">
+                <div class="flex flex-col px-4 items-center gap-3 inline-block  mb-10">
+                    <h2 class="text-[2vw] font-[#sailec] font-medium text-[#054D6C]">Laundry </h2>
+                    <p class="text-[.9vw] text-[#7BA2BE] leading-tigh px-4 text-start">Dry-form and plastic-free laundry alternatives that work just as hard as you do</p>
+                        <button class="bg-[#89C9F8] text-white text-[1.2vw] font-semibold py-1 px-6 rounded-[1vw]">SHOP</button>
+                </div>
+          </div>
+          <div class="swiper-slide w-[20vw] h-[55vh] bg-[#E6F3F7] rounded-md flex flex-col items-center justify-center shadow-md shadow-zinc-300">
+            <img class="h-[15vw] object-cover" src="soap-blue.png" alt="">
+            <div class="flex flex-col px-4 items-center gap-3 inline-block  mb-10">
+                <h2 class="text-[2vw] font-[#sailec] font-medium text-[#054D6C]">Hand Soap</h2>
+                <p class="text-[.9vw] text-[#7BA2BE] leading-tigh px-4 text-start">Foamy goodness designed to keep your hands and the planet clean</p>
+                    <button class="bg-[#89C9F8] text-white text-[1.2vw] font-semibold py-1 px-6 rounded-[1vw]">SHOP</button>
+            </div>
+      </div>
+      <div class="swiper-slide w-[20vw] h-[55vh] bg-[#E6F3F7] rounded-md flex flex-col items-center justify-center shadow-md shadow-zinc-300">
+        <img class="h-[15vw] object-cover" src="dish-blue.png" alt="">
+        <div class="flex flex-col px-4 items-center gap-4 inline-block  mb-10">
+            <h2 class="text-[2vw] font-[#sailec] font-medium text-[#054D6C]">Dish </h2>
+            <p class="text-[.9vw] text-[#7BA2BE] leading-tigh text-start">Powerfull , zero waste options for hands
+                or machine washing dirty dishes.</p>
+                <button class="bg-[#89C9F8] text-white text-[1.2vw] font-semibold py-1 px-6 rounded-[1vw]">SHOP</button>
+        </div>
+  </div>
+  <div class="swiper-slide w-[20vw] h-[55vh] bg-[#E6F3F7] rounded-md flex flex-col items-center justify-center shadow-md shadow-zinc-300">
+    <img class="h-[15vw] object-cover" src="refills-blue.png" alt="">
+    <div class="flex flex-col px-4 items-center gap-4 inline-block  mb-10">
+        <h2 class="text-[2vw] font-[#sailec] font-medium text-[#054D6C]">Refills</h2>
+        <p class="text-[.9vw] text-[#7BA2BE] leading-tigh text-start">Refill forever and save money and waste</p>
+            <button class="bg-[#89C9F8] text-white text-[1.2vw] font-semibold py-1 px-6 rounded-[1vw]">SHOP</button>
+    </div>
+</div>
+<div class="swiper-slide w-[20vw] h-[55vh] bg-[#E6F3F7] rounded-md flex flex-col items-center justify-center shadow-md shadow-zinc-300">
+    <img class="h-[18vw] object-cover" src="toilet-blue.png" alt="">
+    <div class="flex flex-col px-4 items-center gap-4 inline-block  mb-10">
+        <h2 class="text-[2vw] font-[#sailec] font-medium text-[#054D6C]">Toilet </h2>
+        <p class="text-[.9vw] text-[#7BA2BE] leading-tigh text-start">Refillable tablets and cleaners to keep your bathroom fresh</p>
+            <button class="bg-[#89C9F8] text-white text-[1.2vw] font-semibold py-1 px-6 rounded-[1vw]">SHOP</button>
+    </div>
+</div>
+<div class="swiper-slide w-[20vw] h-[55vh] bg-[#E6F3F7] rounded-md flex flex-col items-center justify-center shadow-md shadow-zinc-300">
+    <img class="h-[15vw] object-cover" src="personal-blue.png" alt="">
+    <div class="flex flex-col px-4 items-center gap-4 inline-block  mb-10">
+        <h2 class="text-[2vw] font-[#sailec] font-medium text-[#054D6C]">Personal Care </h2>
+        <p class="text-[.9vw] text-[#7BA2BE] leading-tigh text-start">Delightfully sustainable cleansers for a wash without the waste</p>
+            <button class="bg-[#89C9F8] text-white text-[1.2vw] font-semibold py-1 px-6 rounded-[1vw]">SHOP</button>
+    </div>
+</div>
+<div class="swiper-slide w-[20vw] h-[55vh] bg-[#E6F3F7] rounded-md flex flex-col items-center justify-center shadow-md shadow-zinc-300">
+    <img class="h-[15vw] object-cover" src="homeclearn-blue.png" alt="">
+    <div class="flex flex-col px-4 items-center gap-4 inline-block  mb-10">
+        <h2 class="text-[2vw] font-[#sailec] font-medium text-[#054D6C]">Home Cleaner's </h2>
+        <p class="text-[.9vw] text-[#7BA2BE] leading-tigh text-start">Plant-derived cleaning solutions to keep your home in tip top shape</p>
+            <button class="bg-[#89C9F8] text-white text-[1.2vw] font-semibold py-1 px-6 rounded-[1vw]">SHOP</button>
+    </div>
+</div>
+            </div>
+          </div>
+    </div>
+    <div class="page4 w-full h-[50vh] flex items-center justify-center bg-gradient-to-b from-[#D7F0F7] to-[#89C9F8] pt-5 px-16">
+        <div class="flex w-full items-center justify-between">
+            <div class="shows-card shadow-md shadow-zinc-500 w-[20vw] h-[25vh] rounded-lg bg-[#D8F1F7] p-5 flex flex-col items-center gap-6">
+                <img class="w-[13vw]" src="img1-page3-blue.png" alt="">
+                <h3 class="text-[1.2vw] text-[#054D6C]">World Changing
+                    Ideas.</h3>
+            </div>
+            <div class="shows-card shadow-md shadow-zinc-500 w-[20vw] h-[25vh] rounded-lg bg-[#D8F5D0] flex flex-col items-center gap-4">
+                <img class="w-[10vw] h-[5vw]  object-cover" src="img2-page3-blue.png" alt="">
+                <h3 class="text-[1.2vw] text-[#286603] px-5 leading-tight">"Best sustainable ? cleaning products”</h3>
+            </div>
+            <div class="shows-card shadow-md shadow-zinc-500 w-[20vw] h-[25vh] rounded-lg bg-[#FBE4D9]  flex flex-col items-center gap-2">
+                <img class="w-[10vw] h-[6vw]" src="img3-page3-blue.png" alt="">
+                <h3 class="text-[1.2vw] text-[#6C3105] leading-tight px-6">"Tried the whole line and
+                    absolutely love it.
+                    It's genius"</h3>
+            </div>
+            <div class="shows-card shadow-md shadow-zinc-500 w-[20vw] h-[25vh] rounded-lg bg-[#D9D9FA] p-3 flex flex-col items-center gap-4">
+                <img class="w-[7vw] h-[6vw]" src="img4-page3-blue.png" alt="">
+                <h3 class="text-[1.2vw] text-[#020073]">Best for the Environment</h3>
+            </div>
+        </div>
+    </div>
+    <div class="page5 w-full bg-[#F1F8F9] h-screen py-20 px-16 flex flex-col gap-6">
+        <h1 class="text-[2.5vw] font-[#sailec] text-[#054D6C] font-semibold">Bestsellers</h1>
+        <div class="swiper mySwiper w-full h-[60vh] cursor-grab">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide h-[55vh] bg-[#E6F3F7] rounded-md flex flex-col items-center justify-center shadow-md shadow-zinc-300 pb-10 relative overflow-hidden">
+                    <img class="h-[20vw] object-cover" src="soap-blue.png" alt="">
+                    <h1 class="text-[1.7vw] font-semibold text-[#054D6C] leading-tight text-center">Hand Soap Starter  <br>Set</h1>
+                    <div class="hide h-[20vh] w-full flex flex-col px-4 items-center justify-around bg-[#BAD6DD] gap-3 absolute bottom-[-100%] rounded-lg py-2">
+                        <div class="w-full  flex items-center justify-between">
+                            <div>
+                                <i class="ri-star-fill text-[#054D6C] text-[1vw]"></i>
+                                <i class="ri-star-fill text-[#054D6C] text-[1vw]"></i>
+                                <i class="ri-star-fill text-[#054D6C] text-[1vw]"></i>
+                                <i class="ri-star-fill text-[#054D6C] text-[1vw]"></i>
+                                <i class="ri-star-fill text-[#054D6C] text-[1vw]"></i>
+                            </div>
+                            <h3 class="text-[#03384F] text-[.8vw] font-medium">31,206 Reviews</h3>
+                        </div>
+                        <div class="w-full flex items-center justify-between">
+                            <h3 class="text-[#054D6C] text-[1.2vw] font-medium">Hand Soap Starter Set</h3>
+                             <h4 class="text-zinc-600 font-medium">$8+</h4>
+                        </div>
+                            <button class="bg-[#C9DFE4] text-white text-[1vw] font-semibold py-1 px-6 rounded-[1vw]">Quick Add</button>
+                    </div>
+              </div>
+              <div class="swiper-slide h-[55vh] bg-[#E6F3F7] rounded-md flex flex-col items-center justify-center shadow-md shadow-zinc-300 pb-10 relative overflow-hidden">
+                <img class="h-[20vw] object-cover" src="dishwasher-blue.png" alt="">
+                <h1 class="text-[1.7vw] font-semibold text-[#054D6C] leading-tight text-center">Dishwasher Starter<br>Set</h1>
+              
+                <div class="hide h-[20vh] w-full flex flex-col px-4 items-center justify-around bg-[#BAD6DD] gap-3 absolute bottom-[-100%] rounded-lg py-2">
+                    <div class="w-full  flex items-center justify-between">
+                        <div>
+                            <i class="ri-star-fill text-[#054D6C] text-[1vw]"></i>
+                            <i class="ri-star-fill text-[#054D6C] text-[1vw]"></i>
+                            <i class="ri-star-fill text-[#054D6C] text-[1vw]"></i>
+                            <i class="ri-star-fill text-[#054D6C] text-[1vw]"></i>
+                            <i class="ri-star-fill text-[#054D6C] text-[1vw]"></i>
+                        </div>
+                        <h3 class="text-[#03384F] text-[.8vw] font-medium">9,647 Reviews</h3>
+                    </div>
+                    <div class="w-full flex items-center justify-between">
+                        <h3 class="text-[#054D6C] text-[1.2vw] font-medium">Dishwasher Starter Set</h3>
+                         <h4 class="text-zinc-600 font-medium">$20+</h4>
+                    </div>
+                        <button class="bg-[#C9DFE4] text-white text-[1vw] font-semibold py-1 px-6 rounded-[1vw]">Quick Add</button>
+                </div>
+          </div>
+          <div class="swiper-slide h-[55vh] bg-[#E6F3F7] rounded-md flex flex-col items-center justify-center shadow-md shadow-zinc-300 pb-10 relative overflow-hidden">
+            <img class="h-[20vw] object-cover" src="toiletbowl-blue.png" alt="">
+            <h1 class="text-[1.7vw] font-semibold text-[#054D6C] leading-tight text-center">Toilet Bowl Cleaner<br>Starter Set</h1>
+            <div class="hide h-[20vh] w-full flex flex-col px-4 items-center justify-around bg-[#BAD6DD] gap-3 absolute bottom-[-100%] rounded-lg py-2">
+                <div class="w-full  flex items-center justify-between">
+                    <div>
+                        <i class="ri-star-fill text-[#054D6C] text-[1vw]"></i>
+                        <i class="ri-star-fill text-[#054D6C] text-[1vw]"></i>
+                        <i class="ri-star-fill text-[#054D6C] text-[1vw]"></i>
+                        <i class="ri-star-fill text-[#054D6C] text-[1vw]"></i>
+                        <i class="ri-star-half-line text-[#054D6C] text-[1vw]"></i>
+                    </div>
+                    <h3 class="text-[#03384F] text-[.8vw] font-medium">6,357 Reviews</h3>
+                </div>
+                <div class="w-full flex items-center justify-between">
+                    <h3 class="text-[#054D6C] text-[1.2vw] font-medium leading-tight">Toilet Bowl Cleaner Set</h3>
+                     <h4 class="text-zinc-600 font-medium">$19+</h4>
+                </div>
+                    <button class="bg-[#C9DFE4] text-white text-[1vw] font-semibold py-1 px-6 rounded-[1vw]">Quick Add</button>
+            </div>
+      </div>
+      <div class="swiper-slide h-[55vh] bg-[#E6F3F7] rounded-md flex flex-col items-center justify-center shadow-md shadow-zinc-300 pb-10 relative overflow-hidden">
+        <img class="h-[20vw] object-cover" src="cleanessential-blu.png" alt="">
+        <h1 class="text-[1.7vw] font-semibold text-[#054D6C] leading-tight text-center">The Clean Essential</h1>
+        <div class="hide h-[20vh] w-full flex flex-col px-4 items-center justify-around bg-[#BAD6DD] gap-3 absolute bottom-[-100%] rounded-lg py-2">
+            <div class="w-full  flex items-center justify-between">
+                <div>
+                    <i class="ri-star-fill text-[#054D6C] text-[1vw]"></i>
+                    <i class="ri-star-fill text-[#054D6C] text-[1vw]"></i>
+                    <i class="ri-star-fill text-[#054D6C] text-[1vw]"></i>
+                    <i class="ri-star-fill text-[#054D6C] text-[1vw]"></i>
+                    <i class="ri-star-half-line text-[#054D6C] text-[1vw]"></i>
+                </div>
+                <h3 class="text-[#03384F] text-[.8vw] font-medium">22,946 Reviews</h3>
+            </div>
+            <div class="w-full flex items-center justify-between">
+                <h3 class="text-[#054D6C] text-[1.2vw] font-medium leading-tight">The Clean Essential</h3>
+                 <h4 class="text-zinc-600 font-medium">$37+</h4>
+            </div>
+                <button class="bg-[#C9DFE4] text-white text-[1vw] font-semibold py-1 px-6 rounded-[1vw]">Quick Add</button>
+        </div>
+  </div>
+  <div class="swiper-slide h-[55vh] bg-[#E6F3F7] rounded-md flex flex-col items-center justify-center shadow-md shadow-zinc-300 pb-10 relative overflow-hidden">
+    <img class="h-[20vw] object-cover" src="clean-blue.png" alt="">
+    <h1 class="text-[1.7vw] font-semibold text-[#054D6C] leading-tight text-center">Clean Suite Kit</h1>
+    <div class="hide h-[20vh] w-full flex flex-col px-4 items-center justify-around bg-[#BAD6DD] gap-3 absolute bottom-[-100%] rounded-lg py-2">
+        <div class="w-full  flex items-center justify-between">
+            <div>
+                <i class="ri-star-fill text-[#054D6C] text-[1vw]"></i>
+                <i class="ri-star-fill text-[#054D6C] text-[1vw]"></i>
+                <i class="ri-star-fill text-[#054D6C] text-[1vw]"></i>
+                <i class="ri-star-fill text-[#054D6C] text-[1vw]"></i>
+                <i class="ri-star-half-line text-[#054D6C] text-[1vw]"></i>
+            </div>
+            <h3 class="text-[#03384F] text-[.8vw] font-medium">35,437 Reviews</h3>
+        </div>
+        <div class="w-full flex items-center justify-between">
+            <h3 class="text-[#054D6C] text-[1.2vw] font-medium leading-tight">Clean Suite Kit</h3>
+             <h4 class="text-zinc-600 font-medium">$84</h4>
+        </div>
+            <button class="bg-[#C9DFE4] text-white text-[1vw] font-semibold py-1 px-6 rounded-[1vw]">Quick Add</button>
+    </div>
+</div>
+<div class="swiper-slide h-[55vh] bg-[#E6F3F7] rounded-md flex flex-col items-center justify-center shadow-md shadow-zinc-300 pb-10 relative overflow-hidden">
+    <img class="h-[20vw] object-cover" src="laundry-blue.png" alt="">
+    <h1 class="text-[1.7vw] font-semibold text-[#054D6C] leading-tight text-center">Laundry Starter Set</h1>
+    <div class="hide h-[20vh] w-full flex flex-col px-4 items-center justify-around bg-[#BAD6DD] gap-3 absolute bottom-[-100%] rounded-lg py-2">
+        <div class="w-full  flex items-center justify-between">
+            <div>
+                <i class="ri-star-fill text-[#054D6C] text-[1vw]"></i>
+                <i class="ri-star-fill text-[#054D6C] text-[1vw]"></i>
+                <i class="ri-star-fill text-[#054D6C] text-[1vw]"></i>
+                <i class="ri-star-fill text-[#054D6C] text-[1vw]"></i>
+                <i class="ri-star-half-line text-[#054D6C] text-[1vw]"></i>
+            </div>
+            <h3 class="text-[#03384F] text-[.8vw] font-medium">7,223 Reviews</h3>
+        </div>
+        <div class="w-full flex items-center justify-between">
+            <h3 class="text-[#054D6C] text-[1.2vw] font-medium leading-tight">Laundry Starter Set</h3>
+             <h4 class="text-zinc-600 font-medium">$20+</h4>
+        </div>
+            <button class="bg-[#C9DFE4] text-white text-[1vw] font-semibold py-1 px-6 rounded-[1vw]">Quick Add</button>
+    </div>
+</div>
+            </div>
+          </div>
+    </div>
+    <div class="page6 w-full bg-[#F1F8F9] h-screen py-20 px-16 flex flex-col gap-10">
+        <h1 class="text-[2.4vw] text-[#03384F]">Over 90,000 5-Star Reviews</h1>
+        <div class="w-full h-[45vh] flex items-center gap-1 relative">
+            <div class="reviews w-[30vw] border-2 border-[#D0D0D2] h-full flex flex-col items-start justify-between  bg-[#E6E5FB] px-5 py-3 absolute rounded-lg ">
+                <div class="flex flex-col gap-4">
+                    <div>
+                        <i class="ri-star-fill text-[#5452B3] text-[2vw]"></i>
+                        <i class="ri-star-fill text-[#5452B3] text-[2vw]"></i>
+                        <i class="ri-star-fill text-[#5452B3] text-[2vw]"></i>
+                        <i class="ri-star-fill text-[#5452B3] text-[2vw]"></i>
+                        <i class="ri-star-fill text-[#5452B3] text-[2vw]"></i>
+                    </div>
+             
+                    <p class="text-[1.2vw] leading-tigt tracking-wider">"Smells amazing.
+                        I’d give 10 stars if it was allowed!"</p>
+                </div>
+     
+                    <div>
+                    <h3 class="text-[1.8vw] font-semibold text-[#5452B3]">-Michelle W.on</h3>
+                    <h4 class="text-[1.3vw] text-zinc-500 font-regular">Hand Soap Duo</h4>
+            </div>
+        </div>
+            <div class="reviews w-[30vw] border-2 border-[#CBC5AA] h-full px-5 py-3 flex flex-col items-start justify-between bg-[#FDFBD3] absolute rounded-lg left-[15vw] ">
+                <div class="flex flex-col gap-4">
+                    <div>
+                        <i class="ri-star-fill text-[#D5CD1B] text-[2vw]"></i>
+                        <i class="ri-star-fill text-[#D5CD1B] text-[2vw]"></i>
+                        <i class="ri-star-fill text-[#D5CD1B] text-[2vw]"></i>
+                        <i class="ri-star-fill text-[#D5CD1B] text-[2vw]"></i>
+                        <i class="ri-star-fill text-[#D5CD1B] text-[2vw]"></i>
+                    </div>
+                    <p class="text-[1.2vw] leading-tight tracking-wider">"Each product literally works and cleans perfectly. Obsessed with the dish soap  detergent and best of all no plastic or waste. It truly is life changing and I’m so happy I bought this entire package."</p>
+                    </div>
+               <div>
+                <h3 class="text-[1.8vw] font-semibold text-[#D5CD1B]" >-Kayla M.on</h3>
+                <h4 class="text-[1.3vw] text-zinc-500 font-regular">Clean Suite Kit</h4>
+               </div>
+                   
+            </div>
+            <div class="reviews w-[30vw] border-2 border-[#C4D1D5] h-full px-5 py-3 flex flex-col items-start justify-between bg-[#D8F3F9] absolute rounded-lg left-[30vw]">
+                <div class="flex flex-col gap-4">
+                    <div>
+                        <i class="ri-star-fill text-[#166B81] text-[2vw]"></i>
+                        <i class="ri-star-fill text-[#166B81] text-[2vw]"></i>
+                        <i class="ri-star-fill text-[#166B81] text-[2vw]"></i>
+                        <i class="ri-star-fill text-[#166B81] text-[2vw]"></i>
+                        <i class="ri-star-fill text-[#166B81] text-[2vw]"></i>
+                    </div>
+                    <p class="text-[1.2vw] leading-tight tracking-wider">
+                        "LOVE. I am an obsessive cleaner...
+                    and I am extremely pleased with the
+                    effectiveness and will definitely be
+                    buying refills!"
+                    </p>
+                    </div>
+               <div>
+            
+                <h3 class="text-[1.8vw] font-semibold text-[#166B81]">-Savannah k.on</h3>
+                <h4 class="text-[1.3vw] text-zinc-500 font-regular">The Clean essential</h4>
+            </div>
+        
+        </div>
+        <div class="reviews w-[30vw] border-2 border-[#C3AD8C] h-full px-5 py-3 bg-[#FEEFDA] flex flex-col items-start justify-between absolute rounded-lg right-[16vw] top-0">
+            <div class="flex flex-col gap-4">
+                <div>
+                    <i class="ri-star-fill text-[#E5A13B] text-[2vw]"></i>
+                    <i class="ri-star-fill text-[#E5A13B] text-[2vw]"></i>
+                    <i class="ri-star-fill text-[#E5A13B] text-[2vw]"></i>
+                    <i class="ri-star-fill text-[#E5A13B] text-[2vw]"></i>
+                    <i class="ri-star-fill text-[#E5A13B] text-[2vw]"></i>
+                </div>
+                <p class="text-[1.2vw] leading-tight tracking-wider">
+                    "Best addition to my green routine! I love the laundry products… they store in a container at a fraction of the size of the big plastic jugs."
+                </p>
+                </div>
+                <div>
+            <h3 class="text-[1.8vw] font-semibold text-[#E5A13B]">-Molly W.on</h3>
+            <h4 class="text-[1.3vw] text-zinc-500 font-regular">Laundry Essentials Kit</h4>
+        </div></div>
+        <div class="reviews w-[30vw] border-2 border-[#B29ABB] h-full px-5 py-3 bg-[#F5E5FB] flex flex-col items-start justify-between absolute rounded-lg right-0 top-0 ">
+            <div class="flex flex-col gap-4">
+                <div>
+                    <i class="ri-star-fill text-[#AD3AD5] text-[2vw]"></i>
+                    <i class="ri-star-fill text-[#AD3AD5] text-[2vw]"></i>
+                    <i class="ri-star-fill text-[#AD3AD5] text-[2vw]"></i>
+                    <i class="ri-star-fill text-[#AD3AD5] text-[2vw]"></i>
+                    <i class="ri-star-fill text-[#AD3AD5] text-[2vw]"></i>
+                </div>
+                <p class="text-[1.2vw] leading-tight tracking-wider">
+                    "I love these products for so many reasons. Environmentally friendly, aesthetic bottles, lovely scents."
+                </p>
+                </div>
+          <div>
+            <h3 class="text-[1.8vw] font-semibold text-[#AD3AD5]">-Rebecca L.on</h3>
+            <h4 class="text-[1.3vw] text-zinc-500 font-regular">The Clean Essentials</h4>
+        </div>
+    </div></div>
+   
+    </div>
+   
+    <div class="page8 w-full bg-[#FBFEFF] h-screen py-10 px-16 flex items-center flex-col gap-10">
+        <div class="w-[25vw]">
+            <h1 class="text-[#054D6C] text-[2.4vw] font-semibold text-center">The Most Sustainable Way to Clean</h1>
+        </div>
+        <div class="way-to-clean flex flex-wrap items-center justify-center gap-6">
+        <div class="cleans w-[22vw] h-[30vh] p-3 flex flex-col items-center gap-7 rounded-lg shadow-lg bg-[#D8F1F7]">
+            <div class="rounded-full bg-[#9BEAFF] p-2">
+                <img class="h-[6vw]" src="img1-page6-blue.png" alt="">
+            </div>
+            <h2 class="text-[1.5vw] text-[#054D6C] font-semibold">Cradle to Cradle
+            </h2>
+        </div>
+        <div class="cleans w-[22vw] h-[30vh] p-3 flex flex-col items-center gap-7  rounded-lg shadow-lg bg-[#D8F1F7]">
+            <div class="rounded-full  bg-[#9BEAFF] p-2">
+                <img class="h-[6vw]" src="img2-page6-blue.png" alt="">
+            </div>
+            <h2 class="text-[1.5vw] text-[#054D6C] font-semibold">Leaping Bunny
+            </h2>
+        </div>
+        <div class="cleans w-[22vw] h-[30vh] p-3 flex flex-col items-center  gap-7  rounded-lg shadow-lg bg-[#D8F1F7]">
+            <div class="rounded-full  bg-[#9BEAFF] p-2">
+                <img class="h-[6vw]" src="img3-page6-blue.png" alt="">
+            </div>
+            <h2 class="text-[1.5vw] text-[#054D6C] font-semibold">Certified Vegan
+            </h2>
+        </div>
+        <div class="cleans w-[22vw] h-[30vh] p-3 flex flex-col items-center  gap-7  rounded-lg shadow-lg mt-3 bg-[#D8F1F7]">
+            <div class="rounded-full  bg-[#9BEAFF] p-2">
+                <img class="h-[6vw]" src="img4-page6-blue.png" alt="">
+            </div>
+            <h2 class="text-[1.5vw] text-[#054D6C] font-semibold">EWG
+            </h2>
+        </div>
+        <div class="cleans w-[22vw] h-[30vh] p-3 flex flex-col items-center  gap-7  rounded-lg shadow-lg mt-3 bg-[#D8F1F7]">
+            <div class="rounded-full  bg-[#9BEAFF] p-2">
+                <img class="h-[6vw]" src="img5-page6-blue.png" alt="">
+            </div>
+            <h2 class="text-[1.5vw] text-[#054D6C] font-semibold">B Corp Best for the World
+            </h2>
+        </div>
+        <div class="cleans w-[22vw] h-[30vh] p-3 flex flex-col items-center  gap-7  rounded-lg shadow-lg mt-3 bg-[#D8F1F7]">
+            <div class="rounded-full bg-[#9BEAFF] p-2">
+                <img class="h-[6vw]" src="img6-page6-blue.png" alt="">
+            </div>
+            <h2 class="text-[1.5vw] text-[#054D6C] font-semibold">USDA Bio-Based
+            </h2>
+        </div>
+    </div>
+</div>
+<div class="page9 w-full bg-[#FBFEFF] h-screen py-10 px-10 flex items-center flex-col gap-16">
+ <div>
+    <h2 class="text-[2.5vw] text-[#054D6C] font-semibold">Good Clean Fun</h2>
+    <p class="text-[1vw] font-medium text-zinc-500">Follow us on Instagram 
+        <i class="ri-arrow-right-s-line"></i>
+    </p>
+ </div>
+ <div class="flex flex-wrap items-center gap-3">
+    <div class="img-card h-[20vw] w-[18vw] bg-yellow-200 rounded-lg overflow-hidden">
+        <img class="h-full object-cover" src="img1-page9-blue.jpg" alt="">
+    </div>
+    <div class="img-card h-[20vw] w-[18vw] bg-yellow-200 rounded-lg overflow-hidden">
+        <img class="h-full object-cover" src="img2-page9-blue.jpg" alt="">
+    </div>
+    <div class="img-card h-[20vw] w-[18vw] bg-yellow-200 rounded-lg overflow-hidden">
+        <img class="h-full object-cover" src="img3-page9-blue.jpg" alt="">
+    </div>
+    <div class="img-card h-[20vw] w-[18vw] bg-yellow-200 rounded-lg overflow-hidden">
+        <img class="h-full object-cover" src="img4-page9-blue.jpg" alt="">
+    </div>
+    <div class="img-card h-[20vw] w-[18vw] bg-yellow-200 rounded-lg overflow-hidden">
+        <img class="h-full object-cover" src="img5-page9-blue.jpg" alt="">
+    </div>
+ </div>
+</div>
+<div class="page10 w-full bg-[#D8F1F7] h-screen py-10 px-10 flex items-start flex-col gap-7">
+    <div class="w-[50vw] flex items-start justify-between">
+        <div class="footers flex flex-col items-start justify-between py-10">
+            <h2 class="text-[1.8vw] font-regular tracking-wider">SHOP</h2>
+            <div>
+      <h3 class="text-[1.1vw] font-light leading-9 tracking-wider">All</h3>
+      <h3 class="text-[1.1vw] font-light leading-9 tracking-wider">Subscribe & save</h3>
+      <h3 class="text-[1.1vw] font-light leading-9 tracking-wider">Starter Kits</h3>
+      <h3 class="text-[1.1vw] font-light leading-9 tracking-wider">Refills</h3>
+      <h3 class="text-[1.1vw] font-light leading-9 tracking-wider"> Bestsellers</h3>
+            </div>
+        </div>
+        <div class="footers flex flex-col items-start justify-between py-10">
+            <h2 class="text-[1.8vw] font-regular tracking-wider">ABOUT</h2>
+            <div>
+      <h3 class="text-[1.1vw] font-light leading-9 tracking-wider">Our Mission</h3>
+      <h3 class="text-[1.1vw] font-light leading-9 tracking-wider"> Blog</h3>
+      <h3 class="text-[1.1vw] font-light leading-9 tracking-wider">Careers</h3>
+      <h3 class="text-[1.1vw] font-light leading-9 tracking-wider">Wholesale Inquiries</h3>
+      <h3 class="text-[1.1vw] font-light leading-9 tracking-wider">Store Locator</h3>
+      <h3 class="text-[1.1vw] font-light leading-9 tracking-wider">Students & Grads Discount</h3>
+            </div>
+        </div>
+        <div class="footers flex flex-col items-start justify-between py-10">
+            <h2 class="text-[1.8vw] font-regular tracking-wider">HELP</h2>
+            <div>
+      <h3 class="text-[1.1vw] font-light leading-9 tracking-wider">Contact Us</h3>
+      <h3 class="text-[1.1vw] font-light leading-9 tracking-wider">Return & exchange</h3>
+      <h3 class="text-[1.1vw] font-light leading-9 tracking-wider">FAQ</h3>
+      <h3 class="text-[1.1vw] font-light leading-9 tracking-wider">Accessibility Tool</h3>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h3 class="text-[1.5vw] tracking-wider">Our emails are zero waste, too</h3>
+        <p class="text-zinc-500 font-light">Subscribe to get exclusive deals, zero waste tips, and product launches—no spam, no waste.</p>
+    </div>
+    <div class="flex flex-col items-start gap-3">
+        <div class="w-[25vw] flex items-center justify-between px-2 border-[1px] border-b-black border-t-[#D8F1F7] border-l-[#D8F1F7] border-r-[#D8F1F7]">
+        <input class="bg-transparent text-[1vw] font-light outline-none px-2 border-[#D8F1F7]" type="email" placeholder="Enter You're Email">
+        <i class="ri-mail-line text-[1.4vw]"></i>
+    </div>
+    <div class="icons flex items-center gap-3">
+        <i class="ri-instagram-line text-[1.7vw]"></i>
+        <i class="ri-facebook-line text-[1.7vw]"></i>
+        <i class="ri-twitter-line text-[1.7vw]"></i>
+    </div>
+    </div>
+    <div class="w-[100vw] flex items-center justify-center">
+        <h4 class="text-[1vw] font-light text-zinc-500">© 2024 BLUELAND</h4>
+    </div>
+</div>
+</div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   
+    <script src="script.js"></script>
+</body>
+</html>

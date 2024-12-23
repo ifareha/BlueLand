@@ -1,0 +1,17 @@
+@font-face {
+    font-family:sailec ;
+    src: url('Sailec.ttf');
+}
+@font-face {
+    font-family:self ;
+    src: url('self-modern.ttf');
+}
+
+ .page5 .swiper-slide:hover .hide{
+    bottom: 0;
+    transition: all ease 0.5s;
+ }
+ .page6 .reviews:hover{
+    z-index: 999999999;
+    transition: all ease 0.8s;
+ }
